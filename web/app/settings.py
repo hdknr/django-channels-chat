@@ -120,5 +120,7 @@ ALLOWED_HOSTS = ['develop.local']
 LANGUAGE_CODE = 'ja'
 TIME_ZONE = 'Asia/Tokyo'
 INSTALLED_APPS += [
+    'channels',
     'chat',
 ]
+ASGI_APPLICATION = 'app.routing.application'
