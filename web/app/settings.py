@@ -25,7 +25,6 @@ SECRET_KEY = 'na0g9ct#m%0xcv2clv(5u_v=d4eh@_5r%u7$uje)f3mi31k)9m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -117,7 +116,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 #######
-LANGUAGE_CODE = 'ja
+ALLOWED_HOSTS = ['develop.local']
+LANGUAGE_CODE = 'ja'
 TIME_ZONE = 'Asia/Tokyo'
 INSTALLED_APPS += [
     'chat',
