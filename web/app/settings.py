@@ -135,3 +135,6 @@ CHANNEL_LAYERS = {
         },
     },
 }
+# Local
+if os.path.isfile(os.path.join(BASE_DIR, 'app/local_settings.py')):
+    from .local_settings import *   # NOQA
