@@ -1,4 +1,6 @@
 django
 channels
 channels_redis
+gunicron
+uvicorn
 selenium
